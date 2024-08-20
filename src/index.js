@@ -2,7 +2,7 @@ import grapesjs from 'grapesjs';
 
 const stopPropagation = e => e.stopPropagation();
 
-export default grapesjs.plugins.add('gjs-plugin-ckeditor', (editor, opts = {}) => {
+export default grapesjs.plugins.add('gjs-plugin-ckeditor4', (editor, opts = {}) => {
   let c = opts;
 
   let defaults = {
